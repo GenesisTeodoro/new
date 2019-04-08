@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid #555555;
+    padding: 30px 30px;
+    background-color: rgb(95, 95, 95);
+    border-radius: 10px;
+
+}
+#Numbers{
+    color: black;
+    text-align: right;
+    height: 70px;
+    padding: 2px 10px;
+    box-shadow: 1px 1px gray;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 4px;
+}
+#Memory{
+    color: black;
+    text-align: right;
+    height: 70px;
+    padding: 2px 5px;
+    box-shadow: 1px 1px gray;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+    height: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 6px rgb(185, 185, 185);
+}
+.btn {
+    background-color: white;
+    color: #555555;
+    width: 78px;
+}
+.btn:active{
+    color: black;
+    background-color: #e7e7e7;
+    box-shadow: 1px 3px #666;
+    transform: translateY(2px) translateX(2px);
+}
+.AC{
+    background-color: #ff7c73;
+    color: #555555;
+    width: 168px;
+
+}
+.AC:active{
+    color: black;
+    background-color: #f44336;
+    box-shadow: 1px 3px #666;
+    transform: translateY(2px) translateX(2px);
+}
+.green{
+    background-color: white;
+    color: #555555;
+    width: 100px;
+}
+.green:active{
+    color: black;
+    background-color: #4CAF50;
+    box-shadow: 1px 3px #666;
+    transform: translateY(2px) translateX(2px);
+}
+.red{
+    background-color: white;
+    color: #555555;
+    width: 78px;
+}
+.red:active{
+    color: black;
+    background-color: #ff7c73;
+    box-shadow: 1px 3px #666;
+    transform: translateY(2px) translateX(2px);
+}
+.blue{
+    background-color: white;
+    color: #555555;
+    width: 100px;
+}
+.blue:active{
+    color: black;
+    background-color: #008CBA;
+    box-shadow: 1px 3px #666;
+    transform: translateY(2px) translateX(2px);
+}
+.yellow{
+    background-color: white;
+    color: #555555;
+    width: 100px;
+}
+.yellow:active{
+    color: black;
+    background-color: rgb(255, 242, 58);
+    box-shadow: 1px 3px #666;
+    transform: translateY(2px) translateX(2px);
+}
+#backSpace{
+    width: 190px;
+}
+
+

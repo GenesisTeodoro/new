@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="Calculator">
+            <input id="Numbers" type="text" name="Numbers" size="19" maxlength="15" disabled />
+            <input id="Memory" type="text" name="Memory" size="9" maxlength="5" disabled/>
+            <table>
+                <tr>
+                    <td colspan="2"><input id="ac" class="button AC" type="button" value="AC"/></td>
+                    <td colspan="2"><input id="backSpace" class="button red" type="button" value="←" /></td>
+                    <td><input id="bin" class="button green" type="button" value="BIN" /></td>
+                </tr>
+                <tr>
+                    <td><input class="button btn" type="button" value="1" /></td>
+                    <td><input class="button btn" type="button" value="2" /></td>
+                    <td><input class="button btn" type="button" value="3" /></td>
+                    <td><input class="button blue" type="button" value="+" /></td>
+                    <td><input class="button blue" type="button" value="-" /></td>
+                </tr> 
+                <tr>
+                    <td><input class="button btn" type="button" value="4" /></td>
+                    <td><input class="button btn" type="button" value="5" /></td>
+                    <td><input class="button btn" type="button" value="6" /></td>
+                    <td><input class="button blue" type="button" value="*" /></td>
+                    <td><input class="button blue" type="button" value="/" /></td>
+                </tr>
+                <tr>
+                    <td><input class="button btn" type="button" value="7" /></td>
+                    <td><input class="button btn" type="button" value="8" /></td>
+                    <td><input class="button btn" type="button" value="9" /></td>
+                    <td><input class="button yellow" type="button" value="M+" /></td>
+                    <td><input class="button yellow" type="button" value="MR" /></td>
+                </tr>
+                <tr>
+                    <td><input class="button btn" type="button" value="." /></td>
+                    <td><input class="button btn" type="button" value="0" /></td>
+                    <td><input class="button red" type="button" value="=" /></td>
+                    <td><input class="button yellow" type="button" value="M-" /></td>
+                    <td><input class="button yellow" type="button" value="MC" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
